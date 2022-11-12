@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task</title>
+</head>
+<body>
+    <h1>Welcome to Book Storage</h1>
+    <br><br><br>
+      <div class="abc">
+        Name<input type="checkbox" name="name" id="name" class="name" onclick="showPosts();" />Author
+    <input type="checkbox" name="author" id="author" class="author" onclick="showPosts();"/>Subject
+    <input type="checkbox" name="subject" id="subject" class="subject" onclick="showPosts();"/>Date
+    <input type="checkbox" name="date" id="date" class="date" onclick="showPosts();"/>
+      </div>
+
+    <!-- <div class="title" -->
+
+    <div id="posts-container">
+
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+    <div>
+        Count of Result Showing are:
+        <div id="count">
+            0
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
